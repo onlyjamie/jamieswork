@@ -1,0 +1,22 @@
+.accordion { display: none; }
+@media only screen and (max-width: 600px) { .accordion { display: block; }}
+
+.accordion dt.footer-group, .accordion dd.footer-menu {
+  border-bottom: 0;
+}
+
+.accordion dt.footer-group a, .accordion dd.footer-menu a {
+  display: block;
+  text-align: left;
+}
+
+.accordion dd.footer-menu {
+  border-top: 0;
+  list-style: none;
+  margin-left: 0;
+}
+
+.accordion dd.footer-menu:last-of-type {
+  position: relative;
+  top: -1px;
+}
