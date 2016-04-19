@@ -56,7 +56,7 @@
   var url = document.location.href
   var match = url.match(/bib_number=(\d*)/)
   var bib_number = match ? match[1] : ""
-  var base_path = "http://rm.gamefacemedia.com/races/1754/embed"
+  var base_path = "http://rm.gamefacemedia.com/races/1754/embed?update=1"
   if (bib_number.length) {
     var link = base_path + "?bib_number=" + bib_number
   } else {
